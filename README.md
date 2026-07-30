@@ -34,7 +34,7 @@ What's on the dashboard
 **Risk segment table** : this is the part I'm most proud of. It's a ranked table showing every demographic segment's insured %, uninsured %, and how far off it is from the national average, with color coding so the worst gaps jump out in red and the better-than-average ones show green. Two callout cards next to it highlight the single highest-risk group (non-citizens, at 29.2% uninsured) and the lowest-risk group (adults 75+, essentially fully covered thanks to Medicare).
 
 **A few things that stood out in the data**
-Non-citizens are uninsured at nearly 5x the national rate — 29.2% vs. 8.2%
+Non-citizens are uninsured at nearly 5x the national rate : 29.2% vs. 8.2%
 
 Coverage climbs steadily with age until Medicare kicks in at 65, then flattens out near-universal
 
@@ -43,21 +43,21 @@ People with a disability are actually more likely to be insured than people with
 American Indian/Alaska Native and "some other race" populations show meaningfully higher uninsured rates than the national average, while Asian and White populations sit below it
 
 DAX measures
-I kept these documented separately in dax_measures.md since there's a bit of nuance worth explaining — particularly around why SELECTEDVALUE-based measures work fine on cards but return blank if you drop them straight into a bar chart, and why I had to explicitly exclude the repeated "Civilian noninstitutionalized population" total row from ranking logic so it didn't skew everything.
+I kept these documented separately in dax_measures.md since there's a bit of nuance worth explaining  particularly around why SELECTEDVALUE based measures work fine on cards but return blank if you drop them straight into a bar chart, and why I had to explicitly exclude the repeated "Civilian noninstitutionalized population" total row from ranking logic so it didn't skew everything.
 
 Worth knowing before you dig in
 This is one year of data with no trend line. it's a snapshot, not a time series, so don't expect year-over-year comparisons. Every number here also carries a margin of error since it's survey-based, not a full census count; I kept those MOE columns in the model even though they're not front-and-center on the dashboard, mainly so the underlying uncertainty isn't lost if someone wants to dig deeper.
 
 Files in this repo
-health_insurance_clean.csv — the cleaned dataset, ready to load
+health_insurance_clean.csv : the cleaned dataset, ready to load
 
-powerquery_transform.m — the full Power Query transformation
+powerquery_transform.m : the full Power Query transformation
 
-dax_measures.md — measure definitions and the reasoning behind them
+dax_measures.md : measure definitions and the reasoning behind them
 
-Health_Insurance_Dashboard.pbix — the actual Power BI file
+Health_Insurance_Dashboard.pbix : the actual Power BI file
 
-dashboard_preview.png — screenshot for the repo
+dashboard_preview.png : screenshot for the repo
 
 Source
 U.S. Census Bureau. "Selected Characteristics of Health Insurance Coverage in the United States." American Community Survey, ACS 1-Year Estimates Subject Tables, Table S2701, 2024.
