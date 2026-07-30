@@ -5,6 +5,7 @@
 **Data source**: I picked the Census Bureau's health insurance coverage data (Table S2701, 2024 ACS 1-Year Estimates) because it's public, well-documented, and genuinely messy in the way real work files often are.
 
 **#Source: U.S. Census Bureau, ACS Table S2701#**
+<a href= "https://github.com/Jaishvani23/US-Census-Data/blob/main/Selected%20Characteristics%20of%20Health%20Insurance%20Coverage%20in%20the%20United%20States.xlsx"> Dataset<a/>
 
 **The problem with the raw file:**
 1. If you've ever pulled a table straight off data.census.gov, you know the **export isn't ready to use**.
