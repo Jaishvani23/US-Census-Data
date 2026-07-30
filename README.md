@@ -54,7 +54,8 @@ health_insurance_clean.csv : the cleaned dataset, ready to load
 
 powerquery_transform.m : the full Power Query transformation
 
-dax_measures.md : measure definitions and the reasoning behind them
+dax_measures.md : measure definitions and the reasoning behind them 
+<a href= "https://github.com/Jaishvani23/US-Census-Data/blob/main/Selected%20Characteristics%20of%20Health%20Insurance%20Coverage%20in%20the%20United%20States.xlsx"> Dataset<a/>
 
 Health_Insurance_Dashboard.pbix : the actual Power BI file
 
