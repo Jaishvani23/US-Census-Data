@@ -57,9 +57,8 @@ powerquery_transform.m : the full Power Query transformation
 dax_measures.md : measure definitions and the reasoning behind them 
 <a href= "https://github.com/Jaishvani23/US-Census-Data/blob/main/dax_measures.md"> DAX Document<a/>
 
-Health_Insurance_Dashboard.pbix : the actual Power BI file
-
 dashboard_preview.png : screenshot for the repo
+<a href= "https://github.com/Jaishvani23/US-Census-Data/blob/main/Dashboard.png"> Dashboard.png<a/>
 
 Source
 U.S. Census Bureau. "Selected Characteristics of Health Insurance Coverage in the United States." American Community Survey, ACS 1-Year Estimates Subject Tables, Table S2701, 2024.
